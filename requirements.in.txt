@@ -1,0 +1,6 @@
+
+pydub
+transformers
+spacy
+torchaudio
+whisper-timestamped
