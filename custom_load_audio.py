@@ -5,7 +5,7 @@ import numpy as np
 # hard-coded audio hyperparameters
 SAMPLE_RATE = 16000
 
-# Adapted from wh
+# Adapted from whisper package to add additional arg for channel
 def load_audio(file: str, channel: str = "0.0.0", sr: int = SAMPLE_RATE):
     """
     Open an audio file and read as waveform, resampling as necessary
